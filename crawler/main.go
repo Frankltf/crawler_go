@@ -9,7 +9,7 @@ import (
 func main() {
 	e:=engine.Concurrentengine{
 		Scheduler:&scheduler.SimpleScheduler{},
-		WorkerCount:10,
+		WorkerCount:1000,
 	}
 	e.Run(engine.Request{
 		"http://city.zhenai.com/",

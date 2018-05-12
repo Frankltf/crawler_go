@@ -7,8 +7,11 @@ type SimpleScheduler struct {
 }
 
 func (s *SimpleScheduler)Submit(r engine.Request)  {
-	s.Workchan<-r
+	go func() {
+		s.Workchan<-r
+	}()
+
 }
 func (s *SimpleScheduler) ConfigureWorkchan(c chan engine.Request)  {
-	s.Workchan=c
+	 s.Workchan=c
 }
