@@ -10,7 +10,7 @@ func PrintCityList(content string) engine.ParseResult {
 	re:=regexp.MustCompile(cityregexp)
 	matches:=re.FindAllStringSubmatch(content,-1)
 	result:=engine.ParseResult{}
-	limit:=10
+
 	for _,m :=range matches  {
 		result.Items=append(result.Items,m[2])
 		result.Requestes=append(result.Requestes,engine.Request{
@@ -19,10 +19,6 @@ func PrintCityList(content string) engine.ParseResult {
 				return PrintPersonlist(str)
 			},
 		})
-		limit--
-		if limit<=0{
-			break
-		}
 	}
 	return result
 }
