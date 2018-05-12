@@ -1,7 +1,7 @@
 package engine
 
 type Request struct {
-	url string
+	Url string
 	ParserFunc func(str string) ParseResult
 }
 type ParseResult struct {

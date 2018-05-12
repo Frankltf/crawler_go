@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00824a99-825e-4c36-8cd9-db875dc50894" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/engine/engine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/engine/types.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fetch/fetch.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zhenai/Parser/citylist.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/engine.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/engine.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/windows_amd64/zhenai/Parser.a" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/windows_amd64/zhenai/Parser.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/engine.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/engine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/types.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +32,8 @@
       <file leaf-file-name="citylist.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zhenai/Parser/citylist.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="17" column="10" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="300">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
                 <element signature="e#16#47#0" expanded="true" />
               </folding>
@@ -43,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="engine.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="engine.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/engine/engine.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="440">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding>
                 <element signature="e#16#42#0" expanded="true" />
               </folding>
@@ -55,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="types.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="types.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/engine/types.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -110,10 +108,10 @@
         <option value="$PROJECT_DIR$/crawler/zhenai/Parser/citylist.go" />
         <option value="$PROJECT_DIR$/crawler/zhenai/main.go" />
         <option value="$PROJECT_DIR$/src/fetch/fetch.go" />
-        <option value="$PROJECT_DIR$/src/engine/engine.go" />
-        <option value="$PROJECT_DIR$/src/engine/types.go" />
         <option value="$PROJECT_DIR$/crawler/main.go" />
         <option value="$PROJECT_DIR$/src/zhenai/Parser/citylist.go" />
+        <option value="$PROJECT_DIR$/src/engine/types.go" />
+        <option value="$PROJECT_DIR$/src/engine/engine.go" />
       </list>
     </option>
   </component>
@@ -252,7 +250,7 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3729097" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3729097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.32888147" />
       <window_info id="Favorites" side_tool="true" />
@@ -294,26 +292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/engine.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#16#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zhenai/Parser/citylist.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="e#16#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -324,10 +302,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/zhenai/Parser/citylist.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#16#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/engine/types.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/engine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="e#16#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
