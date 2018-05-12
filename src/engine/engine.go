@@ -12,19 +12,18 @@ func Run(seed ...Request)  {
 		requests=append(requests,r)
 	}
 	for len(requests)>0 {
-		fmt.Printf("%v",requests)
 		r:=requests[0]
 		requests=requests[1:]
+		fmt.Printf("got the url is %s\n",r.Url)
 		body,err:=fetch.Fetch(r.Url)
 		if err!=nil{
-			log.Printf("fetch error url %s :%v",r.Url,err)
+			log.Printf("fetch error url %s :%v\n",r.Url,err)
 			continue
 		}
 		parseresult:=r.ParserFunc(body)
 		requests=append(requests,parseresult.Requestes...)
 		for _,item:=range parseresult.Items {
-			log.Printf("got item %s",item)
+			log.Printf("got item %s\n",item)
 		}
-		fmt.Printf("%d\n",len(parseresult.Items))
 	}
 }
