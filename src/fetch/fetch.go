@@ -26,6 +26,7 @@ func Fetch(url string)(string,error)  {
 	}
 }
 func ConverToString(src string,srccode string,tagcode string)string  {
+
 	srccoder:=mahonia.NewDecoder(srccode)
 	srcResult:=srccoder.ConvertString(src)
 	tagcoder:=mahonia.NewDecoder(tagcode)

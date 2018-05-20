@@ -3,7 +3,6 @@ package engine
 import (
 	"fetch"
 	"log"
-	"fmt"
 )
 
 type Simpleengine struct {
@@ -29,10 +28,9 @@ func (e Simpleengine) Run(seed ...Request)  {
 }
 
 func Worker(r Request)(ParseResult,error) {
-	fmt.Printf("got the url is %s\n",r.Url)
 	body,err:=fetch.Fetch(r.Url)
 	if err!=nil{
-		log.Printf("fetch error url %s :%v\n",r.Url,err)
+
 		return ParseResult{},err
 	}
 	parseresult:=r.ParserFunc(body)

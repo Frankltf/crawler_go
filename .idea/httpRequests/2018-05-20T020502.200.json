@@ -1,0 +1,1 @@
+{"took":13,"timed_out":false,"_shards":{"total":5,"successful":5,"skipped":0,"failed":0},"hits":{"total":2,"max_score":1.0,"hits":[{"_index":"imooc","_type":"course","_id":"2","_score":1.0,"_source":{"name":"php","instructor":"php2"}},{"_index":"imooc","_type":"course","_id":"1","_score":1.0,"_source":{"name":"golang","instructor":"ccmouse"}}]}}

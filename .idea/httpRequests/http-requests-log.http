@@ -1,0 +1,78 @@
+GET http://localhost:9200/imooc/course/_search
+Accept:*/*
+Cache-Control:no-cache
+Content-Type:application/json
+
+<> 2018-05-20T020502.200.json
+
+###
+
+GET http://localhost:9200/imooc/course/_search
+Accept:*/*
+Cache-Control:no-cache
+Content-Type:application/json
+
+<> 2018-05-20T013422.200.json
+
+###
+
+PUT http://localhost:9200/imooc/course/2
+Accept:*/*
+Cache-Control:no-cache
+Content-Type:application/json
+
+{"name":"php","instructor":"php2"}
+
+<> 2018-05-20T013410.201.json
+
+###
+
+PUT http://localhost:9200/imooc/course/2
+Accept:*/*
+Cache-Control:no-cache
+Content-Type:application/json
+
+<> 2018-05-20T013340.400.json
+
+###
+
+GET http://localhost:9200/imooc/course/1
+Accept:*/*
+Cache-Control:no-cache
+Content-Type:application/json
+
+<> 2018-05-20T013258.200.json
+
+###
+
+PUT http://localhost:9200/imooc/course/1
+Accept:*/*
+Cache-Control:no-cache
+Content-Type:application/json
+
+{"name":"golang","instructor":"ccmouse"}
+
+<> 2018-05-20T013230.201.json
+
+###
+
+PUT http://localhost:9200/imooc/course/1
+Accept:*/*
+Cache-Control:no-cache
+Content-Type:application/json
+
+{   "name":"golang",   "instructor":"ccmouse", }
+
+<> 2018-05-20T013152.400.json
+
+###
+
+GET http://localhost:9200
+Accept:*/*
+Cache-Control:no-cache
+Content-Type:application/json
+
+<> 2018-05-20T012834.200.json
+
+###
+
