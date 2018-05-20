@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00824a99-825e-4c36-8cd9-db875dc50894" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/crawler_distributed/rpcsupport/rpc.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/persist/itemsaver.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/rpc/client/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/rpc/rpc.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/rpc/server/main.go" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/crawler/main.go" afterPath="$PROJECT_DIR$/crawler/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/engine/concurrent.go" afterPath="$PROJECT_DIR$/src/engine/concurrent.go" />
-      <change beforePath="$PROJECT_DIR$/src/engine/simpleengine.go" afterPath="$PROJECT_DIR$/src/engine/simpleengine.go" />
-      <change beforePath="$PROJECT_DIR$/src/fetch/fetch.go" afterPath="$PROJECT_DIR$/src/fetch/fetch.go" />
-    </list>
+    <list default="true" id="00824a99-825e-4c36-8cd9-db875dc50894" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
